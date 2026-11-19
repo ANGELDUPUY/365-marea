@@ -30,7 +30,7 @@ Un alojamiento recibe consultas por mail y formularios todo el día. Responder r
 7. **Aprende** de lo que corregís.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Mail / formulario web] --> B[Lectura IMAP]
     B --> C[Fechas y pasajeros]
     C --> D[Tarifario: precio exacto]
